@@ -1,0 +1,72 @@
+.container {
+    background: #EEF2F5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__wrapper {
+    padding: 65px;
+    background: #FFF;
+    width: calc(585-calc(65px*2));
+    height: (690px-calc(65px*2));
+}
+
+body {
+    margin: 0;
+}
+
+.form__title {
+    color: #292929;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.form__description {
+    color: #545454;
+    font-family: IBM Plex Serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+input {
+    border: 1px solid #E6E6E6;
+    padding: 25px 36px;
+    border-radius: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+input :focus {
+    outline: 1px solid #8AC0FF;
+}
+
+.Log-in {
+    color: #FFF;
+    font-family: IBM Plex Serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 8px;
+    background: #0366FF;
+    width: 312px;
+    height: 62px;
+    margin: 0 auto;
+}
+
+.Log-in:hover {
+    transition: 0.5s;
+    color: #292929;
+}

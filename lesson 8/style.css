@@ -1,0 +1,159 @@
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.logo {
+    color: #000;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.text-selected {
+
+    color: #4BCAFF;
+
+}
+
+.navbar-menu {
+    background-color: #35444F;
+    text-align: center;
+
+}
+
+.navbar-menu>a {
+    border-right: 1px solid white;
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px 32px;
+    transition: 0.5s;
+}
+
+.navbar-menu>a:hover {
+    background-color: #222f3a;
+}
+
+.navbar-menu>a:first-child {
+    border-left: 1px solid white;
+}
+
+.navbar-menu>a:not(:first-child) {
+    margin-left: -3.5px;
+}
+
+.sidebar-menu {
+
+    border: 1px solid black;
+    width: 23%;
+}
+
+.sidebar-menu>a {
+    padding: 27px 45px;
+    display: block;
+    color: #485863;
+    font-family: Roboto;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.sidebar-menu>a:hover {
+    color: #000;
+    background: #DBDBDB;
+    padding-left: 55px;
+
+}
+
+main {
+    margin-top: 50px;
+}
+
+.right-side {
+    width: 70%;
+}
+
+.main-img {
+    border: 1px solid #000;
+    padding: 75px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.main-img>img {
+    transition: 0.5s;
+}
+
+.main-img:hover>img {
+    transform: scale(1.4);
+}
+
+main {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.main-text {
+    margin-top: 40px;
+    color: #010000;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px 40px;
+    background: rgba(99, 105, 110, 0.48);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright {
+    color: #010101;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.footer-menu>a {
+    display: inline-block;
+    color: #0C1927;
+    font-family: "Roboto",sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: none;
+    transition: 0.5s;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+}
+.footer-menu>a:not(:last-child) {
+margin-right: 15px;
+}
+.footer-menu>a:hover {
+    color:#3181A6;
+    border-bottom-color:#3181A6 ;
+}

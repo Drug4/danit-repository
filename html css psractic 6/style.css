@@ -1,0 +1,36 @@
+h2::selection{
+    color: brown;
+    background-color: blueviolet;
+}
+h2::first-letter {
+    font-size: 30px;
+    color: aqua;
+    background-color: black;
+}
+h2::first-line{
+    background-color:aqua;
+}
+input::placeholder{
+    color: blue;
+    background-color: rgb(127, 217, 255);
+}
+h2::before{
+    content: "BEFORE    ";
+}
+button::before{
+    content: "BEFORE    ";
+    background-color: brown;
+    color: chocolate;
+
+}
+
+.container{
+    width: 250px;
+}
+h2 {
+    width: 10px;
+}
+body{
+    font-family: Roboto,sans-serif;
+}
+

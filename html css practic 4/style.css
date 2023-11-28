@@ -1,0 +1,15 @@
+.li :hover{
+    font-size: 30px;
+color: rgb(17, 7, 158);
+}
+.ul {
+    color:gray ;
+}
+.ol :hover{
+    color: rgb(215, 0, 0);
+    transition: 1s;
+}
+.p {
+    font-size: 20px;
+    color: rgb(86, 13, 13);
+}
